@@ -1,0 +1,59 @@
+.learn-form > label {
+  font-weight: 700;
+}
+
+#learn-guess-input {
+  transition-property: border, background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+  text-align: left;
+  padding: 5px;
+  margin: 2px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px #1E2019 solid;
+  height: 30px;
+  width: 150px;
+}
+
+#learn-guess-input:focus {
+  border-radius: 2px;
+  border: 1px #E2C044 solid;
+  background-color: #ececec;
+}
+
+#learn-word {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ececec;
+  font-style: italic;
+  text-shadow: 1px 1px rgba(30, 32, 25, 0.7);
+}
+
+.correct-result {
+  color: #003D00;
+}
+
+.incorrect-result{
+  color: #6B0000;
+}
+
+#feedback-detail {
+  font-size: 20px;
+}
+
+#question-wrapper {
+  transition-property: box-shadow, border-radius;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+  padding: 30px;
+  background: rgba(88, 123, 127, 0.9);
+  color: #ececec;
+  border: solid 4px #ececec;
+  border-radius: 10px;
+  box-shadow: 4px 4px rgba(30, 32, 25, 0.5);
+}
+
+#question-wrapper:hover {
+  box-shadow: 5px 5px #1E2019;
+}
