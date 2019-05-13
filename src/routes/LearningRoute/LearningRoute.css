@@ -25,7 +25,7 @@
 #learn-word {
   font-size: 30px;
   font-weight: 500;
-  color: #ececec;
+
   font-style: italic;
   text-shadow: 1px 1px rgba(30, 32, 25, 0.7);
 }
@@ -47,11 +47,10 @@
   transition-duration: 0.25s;
   transition-timing-function: linear;
   padding: 30px;
-  background: rgba(88, 123, 127, 0.9);
-  color: #ececec;
-  border: solid 4px #ececec;
-  border-radius: 10px;
-  box-shadow: 4px 4px rgba(30, 32, 25, 0.5);
+  /* background: rgba(88, 123, 127, 0.9); */
+  /* color: #ececec; */
+  border: 1px solid black;
+  box-shadow: 5px 10px 3px gray;
 }
 
 #question-wrapper:hover {

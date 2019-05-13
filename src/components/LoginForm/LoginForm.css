@@ -19,7 +19,11 @@
 #login-password-input {
   margin-left: 5px;
 }
-
+.login-title{
+  border: 1px solid black;
+  width: 39%;
+  box-shadow: 5px 10px 3px gray;
+}
 .login-title > h2 {
   font-size: 26px;
   color: #1E2019;
@@ -36,17 +40,21 @@
   transition-duration: 0.25s;
   transition-timing-function: linear;
   font-size: 14px;
-  color: #1E2019;
+  color: white;
   width: 75px;
   height: 35px;
   border-radius: 6px;
-  background: #fefefe;
+  background: #78c800;
 }
 
 .login-submit:hover {
   cursor: pointer;
   border-radius: 4px;
-  background: #587B7F;
+  background: #befa65;
   box-shadow: none;
-  color: #ececec;
+  color: black;
+}
+
+.demo{
+  margin-top: 50px;
 }
